@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port folio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/665be8a653.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Portfolio</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#volunteer">Volunteer</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+           <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi<br> I'm <span> Anushka</span> from India.</h1>
+           </div>
+        </div>
+    </div>
+
+
+    <!--**********About********-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="pho.png" alt="myPhoto"></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <P>My name is Anushka Sanjay Gaikwad. I'm completing my Bachelor of Technology Degree. I'm a rising sophomore 
+                        at Cummins College of Engineering majoring in Computer Science. I'm an Web Developer. It interests me as it involves the creative 
+                        and the logical part at the same time. I love making eye-catching,accessible and user-friendly websites. I also have
+                        a great interest in Data structure and Algorithm and solving Competative Programming question. Apart from studing I focus
+                        on Sustanability and spreading it's awareness amongst young generation. In my free time I enjoy dancing and spending time
+                        with my family and friends. My favourite sports is Volley Ball. I also run and play badminton. I enjoy exploring new fields
+                        in computer so I have also started ganing knowledge in Database Management System,Operating Syatem and Machine Learning. I 
+                        have "A never give up attitude" which always keeps me motivated to take one step towards my goal. My short term goal is to 
+                        get internship in best Company. And my long term goal is to become a successful Engineering .                          
+                    </P>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Scolarship</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul >
+                            <li>Problem Solving Skill</li>
+                            <li><span>Languages:</span>C,C++,Java,Python</li>
+                            <li>Data Structure and Algorithm</li>
+                            <li><span>Frontend Development:</span>HTML,CSS,Bootstrap,Javascript,JQuery</li>
+                            <li><span>Backend Development:</span>Node.js,Express.js,API,EJS,React</li>
+                            <li><span>Datbases:</span>Mysql,MongoDB</li>
+                            <li><span>Developers Tools:</span>VS code ,Eclipse(Java and Web developer),Git</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Lila Ponawalla Scolarship(2021)</span></li>                           
+                        </ul>
+                         <p>Got The "Leading Indian Ladies Ahead" Scholarship for completing my BTech degree in 2021.The
+                            scholarship is a Merit-cum-Need based scholatship. The scholarship is available till I complete 
+                            my Btech Degree and provide 60,000/- per year. Along with the scholarship Self-Defence,Soft-Skills,
+                            Academic Study,etc based sessions are taken to make the students ready for interviews,aptitude rounds and other life lessons.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--****Education******-->
+    <div id="education">
+        <div class="container">
+            <h1 class="sub-title">Education</h1>
+            <div class="education-list">
+                <div>
+                    <i class="fa-solid fa-school"></i>
+                    <h2>Secondary School</h2>
+                    <u1>
+                        <li><span>School: </span>Bharat Children's Academy and JR College,Walchandnagar(2019)</li>
+                        <li><span>SSC percentage: </span>91 %</li>
+                        <li><span>Best Student Award</li>
+                    </u1>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-award"></i>
+                    <h2>Higher Secondary School</h2>
+                    <u1>
+                        <li><span>College: </span>Shri Vardhaman Vidyalaya,Walchandnagar(2019-2021)</li>
+                        <li><span>HSC percentage: </span>98.5 %</li>
+                        <li><span>CET percentile: </span>98.2 %</li>                       
+                    </u1>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <h2>Engineering</h2>
+                    <u1>
+                        <li><span>College:</span>MKSSS"S Cummins College of Engineering for Women Pune(2021-2025)</li>
+                        <li><span>Pointer: </span> 9.4</li>
+                        <li>Class Topper(1st in class of 80)</li>
+                        <li>In top 10 toppers of all computer branches</li>
+                    </u1>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--***********Projects***********-->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="project-list">
+               <ul>
+                <label>Railway Managenment System :</label>
+                <li>Railway management system is Data Structure and Algorithm based Project. It is made using java language.
+                    It includes functions like booking tickect,choosing particular seat,canceling the tickect,etc.
+                </li>
+                <li>Data structure used in the project are Linked list,Seat Matrix,Queue,Hashmap.</li><br><hr><br>
+                <label>Hotel Management System(DBMS):</label>
+                <li>Hotel management system is a website made along with the Database and various different functions for managing
+                    the hotel. This includes (adding ,deleting,updating) employees,(checkin,checkout) of customers,displaying
+                    available ,non-available rooms,etc. </li>
+                <li>For Frontend HTML,CSS is used along with the 'Tomcat' server. For Backend java,jsp is used. Database used is 
+                    Mysql.
+                </li>
+                <li>JDBC is used to connect java and Mysql. Servlet is used o coonect Front and Back end.</li><br><hr><br>
+                <label>Weather API:</label>
+                <li>Weather API is a website made that shows today's day,date,tempreature,humidity,etc information about the 
+                    specify contry entered by the user.
+                </li>
+                <li>The project makes use of the node.js,API,HTML.</li><br><hr><br>
+                <label>Python Quiz:</label>
+                <li>Python quiz is a project made using Python language which includes 10 python quiz and the score for the auiz.</li>
+                <li>Project involves UI which includes Tkinter.</li>
+
+               </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!--*****Volunteer*****-->
+    <div id="volunteer">
+        <div class="container">
+            <h1 class="sub-title">Volunteer</h1>
+            <div class="volunteer-list">
+                <div class="row">
+                    <div class="volenteer">
+                        <img src="terii.png" alt="myPhoto">
+                        <div class="layer">
+                            <h3>TERI</h3>
+                            <p>World Sustainalble Development Summit 2023 held at India Habitat Center from 21 feb to 24th feb 2023</p>
+                            <a href="Report of WSDS.pdf" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>    
+                    </div>     
+                    <div class="about-col-2 content">
+                        <p><span>TERI-The Energy and Resource Institute of India</span><br><br>
+                            Being a Lila girl, in 2022 I got a chance to have a meet with Jhonson Controls team(Johnson Controls (NYSE:JCI) 
+                            they transform the environments where people live, work, learn and play in a sustainable way). The meet included
+                            talks about education, scholarship,sustanability. Due to the great interaction I was selected as a volunteer for 
+                            World Sustainalble Development Summit from Jhonson Controls side. The summit included various sessions on topics like:<br><br><br>
+                            🔸Financing Sustainable Development.<br>
+                            🔸Driving Ambition and Action for a Sustainable Future.<br>
+                            🔸G20 Leadership for a Green Development Pact.<br>                        
+                            🔸Towards Energy Security and Inclusive Energy Transitions.<br>
+                            🔸Sustainable Ocean Management.<br>                          
+                            🔸People Centric Smart City Development.<br>                             
+                            🔸Youth plenary:Collective Action and Intergenerational Equity for Our Common Future.<br><br><br>
+
+                            Lastly , I got a chance to meet Dr. Vibha Dhawan Personally(DG of TERI).It was a great experience to personally
+                            talk with such a big personality . She focused on how women empowerment is important
+                            .What we need is Confidence and faith in yourself. After seeing such powerful women
+                            leaders inspired me to move ahead in life.
+                           
+                            
+                         </p>
+                    </div>   
+                                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Contact-->
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="container">
+                <h1 class="sub-title">Contact</h1>
+            </div>
+            <ul class="socials">
+                <li><a href="https://www.linkedin.com/in/anushka-gaikwad-226792231/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/anushka_g1203/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://github.com/anushkag1203"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+                     
+        </div>
+        <div class="footer-bottom">
+           <p>copyright @2023. designed by Anushka Gaikwad</p>
+        </div>
+
+    </footer>
+    
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");          
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+
+</html>
